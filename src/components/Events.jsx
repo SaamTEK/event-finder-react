@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import EventCard from "./EventCard";
 
 export default function Events({ events, setEvents }) {
   const deleteEvent = (id) => {
     let eventsObj = [...events];
-    setEvents(eventsObj.filter((e) => e.id != id));
+    setEvents(eventsObj.filter((e) => e.id !== id));
   };
 
   return (

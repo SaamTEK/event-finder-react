@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -33,7 +33,8 @@ export default function AddEvent({ events, setEvents }) {
 
   return (
     <div className="my-3">
-      <div className="d-flex justify-content-end">
+      <div className="d-flex flex-row justify-content-between">
+        <h4>Add Event</h4>
         <Link to="/">
           <Button variant="outline-secondary">Go Back</Button>
         </Link>

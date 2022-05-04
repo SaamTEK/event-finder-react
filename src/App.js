@@ -1,7 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Button } from "react-bootstrap";
-import { Link, Route, Routes, Navigation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import AddEvent from "./pages/AddEvent";
 import Home from "./pages/Home";

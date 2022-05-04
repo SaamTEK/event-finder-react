@@ -6,8 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navigation from "./components/Navigation";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AddEvent from "./pages/AddEvent";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

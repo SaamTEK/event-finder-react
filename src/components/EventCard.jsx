@@ -2,11 +2,6 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 
 export default function EventCard({ event, deleteEvent }) {
-  const deletePost = (e) => {
-    e.preventDefault();
-    console.log(`Event ${event.id} deleted`);
-  };
-
   return (
     <Card className="col-12 my-2">
       <Card.Header>{event.title}</Card.Header>
